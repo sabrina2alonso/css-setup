@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorial</title>
+
+
+    <!-- internal css -->
+    <!-- any internal css overrides external css -->
+    <!-- <style>
+    h1{
+        color:cadetblue;
+        font-size:3rem ;
+    }
+    h2{
+        color: cornflowerblue;
+        font-size:2rem;
+    } </style> -->
+
+
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+        <a href="about.html">About</a>
+
+    <!-- inline css === written in tag -->
+    <!-- inline css overrides internal AND external css -->
+    <!-- <h1 style="color:rgb(57, 158, 124); font-size:3ren;">Ello Beech</h1> -->
+
+    <!-- internal css === uses <style></style> in the <head></head> -->
+    <h2>Ayo beeches 2.0</h2>
+    <h1 id="heading">gimme chocolate</h1>
+    <h1 id="heading1">Or don't, ICD</h1>
+    <h2>Lol</h2>
+
+    <!-- external css -->
+    <h1 class="purple">Hello Whores</h1>
+    <h1 class="indigo">Hate it here</h1>
+    <h2 class="purple">i dedicate this to me</h2>
+    <h2 class="indigo1" id="best">i am the best.</h2>
+
+    <h1 class="purple">Hello Whores</h1> <!-- should be ppurple under specificity -->
+    <h1 class="purple">Hate it here</h1> <!-- should be ppurple under specificity -->
+    <h2 class="indigo">i dedicate this to me</h2>
+    <h2 class="indigo" id="best">i am the best.</h2>
+
+    <div>
+        <h3>Heading One</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga reiciendis, repellendus non libero sapiente molestiae, distinctio aut velit, adipisci est eum mollitia. Placeat asperiores modi illo cum. Eum expedita, alias similique exercitationem quaerat ut libero obcaecati aut nostrum voluptatem animi corrupti, tenetur accusamus vero quo reiciendis veniam omnis a odio!</p>
+    </div>
+
+
+    <h4>Another one</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit perspiciatis, repellendus cum enim maxime exercitationem. Aperiam necessitatibus eos delectus eum recusandae, unde accusantium, tempora aspernatur 
+        <span class="purple">i am uppercase</span> 
+    error ad perspiciatis quia blanditiis accusamus veritatis laudantium velit praesentium deserunt enim dolor sapiente consequatur, voluptate reprehenderit dolores fugit. Accusamus, distinctio molestiae nam eligendi ex at sit aperiam recusandae quaerat inventore, adipisci rem eos saepe nemo laboriosam assumenda magnam quasi. 
+        <span>i am uppercase.</span>
+    </p>
+</body>
+</html>

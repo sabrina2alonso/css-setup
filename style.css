@@ -1,0 +1,163 @@
+/* 
+    css rule === tags + declaration block
+
+    selectors === h1, h2, p, etc
+
+    declaration block === {} + what's within the {}
+
+    declaration === only what's inside the {}
+
+    declarations are sperated using a ;
+
+    property syntax value === property:value === ex) color:red
+
+    property === color, font-size, etc
+
+    syntax === :
+
+    value === red, 12px, etc
+
+    inheritance === children elements inherit parent styling unless   styled itself (children override parent)
+
+    universal selector === *
+
+    last rule === last styling of the same selector will be applied
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/* styling individual tags */
+ /* h1 {
+    color:darkslategray;
+ }
+
+ h2{
+     color:darkolivegreen;
+ }
+
+ p{
+     color:darkslateblue;
+ } */
+
+
+
+
+/* styling multiple tags */
+ /* body {
+     color:blueviolet;
+ }
+
+ h1, h2 {
+     color:midnightblue;
+ } */
+
+
+
+
+/* styling by id (id's are unique to ONE tag) */
+ /* #heading {
+     color:darkcyan;
+    background:black;
+ }
+
+ #heading1 {
+     color:mediumorchid;
+    background:burlywood;
+ } */
+
+
+
+
+/* styling by class (classes are unique to multiple tags)*/
+ /* .purple {
+     color:purple;
+ }
+
+ .indigo {
+     color:indigo;
+ }  */
+
+
+
+
+/* styling by class AND id */
+ /* #best {
+     background: yellowgreen;
+ }
+ .indigo1 {
+     font-size:4rem;
+ } */
+
+
+
+
+/* styling by grouping using div and span */
+/* div === used to group large chunks of the body */
+/* span === used to group smaller sections of text */
+ /* div {
+     color:aqua;
+    background:olive;
+ }
+
+ span {
+     text-transform: uppercase;
+ } */
+
+
+
+
+/* inheritance */
+ /* body {
+     color:red;
+     line-height: 1.5rem;
+ }
+
+ div {
+    color:green;
+    border: 3px solid black;
+ }
+
+ h3 {
+    color:blue;
+ } */
+
+
+
+
+/* last rule */
+ /* p {
+     color:crimson;
+ }
+
+ p {
+     color:lightcoral;
+ } */
+
+
+
+
+/* specificity */
+ /* .purple {
+     color:purple;
+ }
+
+ h1 {
+     color:darkslategrey;
+ } */
+
+
+
+
+/* universal selector */
+ /* * {
+     color:rgb(45, 99, 69)
+ } */
